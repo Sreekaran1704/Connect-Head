@@ -14,6 +14,13 @@
   <img src="docs/mac-overview-light.png" width="49%" alt="Overview, light mode">
 </p>
 
+<p align="center">
+  <img src="docs/android-overview.png" height="270" alt="Android: battery and headphones">
+  <img src="docs/android-sound.png" height="270" alt="Android: sound modes">
+  <img src="docs/android-equalizer.png" height="270" alt="Android: equalizer presets">
+</p>
+<p align="center"><sub>Mac (top) and Android (bottom)</sub></p>
+
 ## What it does
 
 - **Battery at a glance.** A watch-style tick dial around a drawing of the headphones, traced from Sony's product photo.
