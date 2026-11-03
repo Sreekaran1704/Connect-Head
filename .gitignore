@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# Mac app build output
+mac/build/
+mac/.build/
+
+# Android build output and local settings
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
+.idea/
+*.iml
