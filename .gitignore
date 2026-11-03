@@ -15,3 +15,10 @@ android/local.properties
 *.aab
 .idea/
 *.iml
+
+# Release signing (never commit) and packaged releases
+android/keystore/
+android/keystore.properties
+*.jks
+*.keystore
+release/

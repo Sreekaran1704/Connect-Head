@@ -21,6 +21,15 @@
 </p>
 <p align="center"><sub>Mac (top) and Android (bottom)</sub></p>
 
+## Download
+
+Get the latest version from **[Releases](https://github.com/Sreekaran1704/Connect-Head/releases/latest)**:
+
+- **Mac:** `ConnectHead-<version>-mac.zip` (macOS 14+, Apple silicon or Intel). The app isn't notarised, so the first time you open it, go to *System Settings → Privacy & Security* and click **Open Anyway**.
+- **Android:** `ConnectHead-<version>-android.apk` (Android 10+). Open it on your phone and allow installing unknown apps if asked.
+
+Pair the headphones in Bluetooth settings first.
+
 ## What it does
 
 - **Battery at a glance.** A watch-style tick dial around a drawing of the headphones, traced from Sony's product photo.
@@ -60,6 +69,7 @@ You need the headphones paired with your device first.
 ```bash
 cd mac
 ./build.sh --install   # builds, copies to /Applications and launches it
+./build.sh --release   # universal build, zipped into release/
 ```
 
 Allow Bluetooth access on first launch. The app is ad-hoc signed, so macOS asks again after each rebuild. For YouTube progress and controls in a browser, turn on *Allow JavaScript from Apple Events* in that browser.
@@ -70,6 +80,7 @@ Allow Bluetooth access on first launch. The app is ad-hoc signed, so macOS asks 
 cd android
 ./install.sh                         # builds, installs on a USB-debugging phone, opens it
 ./gradlew :app:testDebugUnitTest     # protocol tests
+./gradlew :app:assembleRelease       # release APK, signed if keystore.properties exists
 ```
 
 Allow *Nearby devices* to reach the headphones, and *Notification access* for Now Playing. Connect Head reads only media sessions, not your notifications.
