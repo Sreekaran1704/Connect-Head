@@ -23,12 +23,16 @@
 
 ## Download
 
-Get the latest version from **[Releases](https://github.com/Sreekaran1704/Connect-Head/releases/latest)**:
+| | Download | Needs |
+| --- | --- | --- |
+| **Mac** | **[⬇ Connect Head for Mac](https://github.com/Sreekaran1704/Connect-Head/releases/download/v1.0.0/ConnectHead-1.0.0-mac.zip)** (zip, 2.2 MB) | macOS 14+, Apple silicon or Intel |
+| **Android** | **[⬇ Connect Head for Android](https://github.com/Sreekaran1704/Connect-Head/releases/download/v1.0.0/ConnectHead-1.0.0-android.apk)** (APK, 2 MB) | Android 10+ |
 
-- **Mac:** `ConnectHead-<version>-mac.zip` (macOS 14+, Apple silicon or Intel). The app isn't notarised, so the first time you open it, go to *System Settings → Privacy & Security* and click **Open Anyway**.
-- **Android:** `ConnectHead-<version>-android.apk` (Android 10+). Open it on your phone and allow installing unknown apps if asked.
+Version 1.0.0. Older versions and release notes are on the [Releases](https://github.com/Sreekaran1704/Connect-Head/releases) page. Pair the headphones in Bluetooth settings first.
 
-Pair the headphones in Bluetooth settings first.
+**Mac:** unzip and drag Connect Head into Applications. The app isn't notarised, so the first time you open it, go to *System Settings → Privacy & Security* and click **Open Anyway**.
+
+**Android:** open the APK on your phone and allow installing unknown apps if asked.
 
 ## What it does
 
